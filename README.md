@@ -24,7 +24,7 @@ This project contains a completed 3D-printed 6-DOF Robotic arm, complete with im
 - PCA9685 16-channel servo driver
 - Custom 3D-Printed mechanical components
 
-![Fully Assembled Robot](/Media/AssembledRobot.JPG)
+![Fully Assembled Robot](/Media/AssembledRobot.png)
 
 # Limitations
 The FK/IK pipeline does not consider the last joint (J5/Wrist Roll) in the calculations, therefore limiting possible IK solutions and requiring manual adjustment of wrist roll for specific tasks. The orientation control specified in the Python code only controls the solutions so that the robot's wrist is level with the surface, which is sufficient for pick/place tasks and writing/drawing but requires thorough path planning given the limited workspace combined with servo limits.
