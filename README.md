@@ -4,7 +4,7 @@ This project contains a completed 3D-printed 6-DOF Robotic arm, complete with im
 
 # Features
 - Six degrees of freedom with a servo-actuated and controllable gripper
-- Numerical forward (FK) and inverse kinematics (IK) using the Damped Least Squares method
+- Forward kinematics via Denavit-Hartenberg parameters and numerical inverse kinematics (IK) using the Damped Least Squares method
 - End-effector positioning by Cartesian coordinates (X, Y, Z)
 - Partial end-effector orientational control 
 
